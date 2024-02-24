@@ -503,7 +503,7 @@ h3 {
 }
 
 .active {
-  display: block !important;
+  display: block;
 }
 
 .close {
@@ -829,7 +829,7 @@ h3 {
 }
 
 .gallery-btn__item:hover {
-  background: #4B498C;
+  background: #7c4aab;
 }
 
 .gallery-img__left {
@@ -1341,6 +1341,8 @@ h3 {
   -ms-transform: translate(50%, 50%);
   transform: translate(50%, 50%);
   width: 100%;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
 }
 
 .popup-container {
@@ -1555,8 +1557,8 @@ h3 {
   top: 0;
   left: 0;
   z-index: 999;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1695,6 +1697,10 @@ h3 {
 
 .hide {
   opacity: 0;
+}
+
+.active {
+  display: block;
 }
 
 @media (max-width: 1600px) {
