@@ -1229,7 +1229,7 @@ h3 {
 }
 
 .footer {
-  background: url(../../img/footer-bg.png);
+  background: url(../img/footer-bg.png);
   padding-top: 60px;
   padding-bottom: 48px;
   background-size: cover;
@@ -1838,7 +1838,7 @@ h3 {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 60px 0;
-    background-image: url('../../img/header-bg__pad.png');
+    background-image: url('../img/header-bg__pad.png');
     background-size: cover;
     background-color: none;
   }
@@ -2231,7 +2231,7 @@ h3 {
 
   .header-main__content {
     padding: 40px 0;
-    background-image: url('../../img/header-bg__mobile.png');
+    background-image: url('../img/header-bg__mobile.png');
   }
 
   .header-main__title {
